@@ -29,3 +29,37 @@ img {
   color: rgb(15, 219, 15);
   border-radius: 20px;
 }
+
+.input-conteiner {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.date-input {
+  max-width: 275px;
+  min-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.btn-start-timer {
+  font-size: 30px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 25px;
+}
